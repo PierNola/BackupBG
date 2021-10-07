@@ -4,7 +4,7 @@
 #
 VER=0.1
 SCRIPT_NAME="backup.sh"
-PROJECT="https://git.gresse.eu/Exploitation/BackupPg/"
+PROJECT="https://github.com/PierNola/BackupPg/"
 
 BACKUP_DIR=/opt/backup
 DATA_DIR=${BACKUP_DIR}/data
