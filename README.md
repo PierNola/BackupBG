@@ -13,25 +13,25 @@ Supports the following postgreSQL versions
 ### Install online
 
 ```bash
-curl  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline
+curl  https://raw.githubusercontent.com/PierNola/BackupPg/main/backup.sh | sh -s installonline
 ```
 
 Or:
 
 ```bash
-wget -O -  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline
+wget -O -  https://raw.githubusercontent.com/PierNola/BackupPg/main/backup.sh | sh -s installonline
 ```
 
 ### Install online in a specific directory
 
 ```bash
-curl  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline <customdir>
+curl  https://raw.githubusercontent.com/PierNola/BackupPg/main/backup.sh | sh -s installonline <customdir>
 ```
 
 Or:
 
 ```bash
-wget -O -  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline <customdir>
+wget -O -  https://raw.githubusercontent.com/PierNola/BackupPg/main/backup.sh | sh -s installonline <customdir>
 ```
 
 ### Install description
