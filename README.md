@@ -1,6 +1,10 @@
-# 1. How to install
+# Summary
+Script to backup postgresql databases.
 
-### 1. Install online
+
+# How to install
+
+### Install online
 
 ```bash
 curl  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline
@@ -12,7 +16,7 @@ Or:
 wget -O -  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline
 ```
 
-### 2. Install online in a specific directory
+### Install online in a specific directory
 
 ```bash
 curl  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline <customdir>
@@ -24,7 +28,7 @@ Or:
 wget -O -  https://raw.githubusercontent.com/PierNola/BackupBG/main/backup.sh | sh -s installonline <customdir>
 ```
 
-### 3. Install description
+### Install description
 The installer will perform 3 actions:
 
 1. Create and copy `backup.sh` to `/opt/backup` or to a specific directory
