@@ -1,6 +1,5 @@
 # Summary
-Script to backup postgresql databases.
-
+Backup utility for PostgreSQL databases
 
 # How to install
 
