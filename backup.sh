@@ -5,6 +5,7 @@
 VER=0.1
 SCRIPT_NAME="backup.sh"
 PROJECT="https://github.com/PierNola/BackupPg/"
+PROJECT_RAW="https://raw.githubusercontent.com/PierNola/BackupPg/main/"
 
 BACKUP_DIR=/opt/backup
 DATA_DIR=${BACKUP_DIR}/data
@@ -100,11 +101,11 @@ install(){
 
 installonline() {
     if _exists curl; then 
-        curl ${PROJECT}raw/master/backup.sh  -o backup.sh
+        curl ${PROJECT_RAW}backup.sh  -o backup.sh
         chmod +x ${SCRIPT_NAME}
         ./${SCRIPT_NAME} --install ${1}
     elif _exists wget ; then 
-        wget ${PROJECT}raw/master/backup.sh
+        wget ${PROJECT_RAW}/backup.sh
         chmod +x ${SCRIPT_NAME}
         ./${SCRIPT_NAME} --install ${1}
     else 
