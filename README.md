@@ -3,6 +3,11 @@
 ## Summary
 Linux backup utility for PostgreSQL databases for linux.
 
+Supports the following postgreSQL versions
+-   postgresql-12.X
+-   postgresql-11.X
+-   postgresql-10.X
+
 ## How to install
 
 ### Install online
