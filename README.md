@@ -1,7 +1,9 @@
-# Summary
-Backup utility for PostgreSQL databases
+# Backup utility for PostgreSQL databases
 
-# How to install
+## Summary
+Linux backup utility for PostgreSQL databases for linux.
+
+## How to install
 
 ### Install online
 
